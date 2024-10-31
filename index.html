@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project: Recipe Book</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1, h2 {
+            color: #0056b3;
+        }
+        h2 {
+            margin-top: 40px;
+        }
+        ol {
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #e9ecef;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .recipe {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        .step {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Isa's Recipe Book</h1>
+
+    <h2>Contents:</h2>
+    <ol>
+        <li><a href="#pasta-alfredo">Recipe #1: Pasta Alfredo</a></li>
+        <li><a href="#chicken-curry">Recipe #2: Chicken Curry</a></li>
+        <li><a href="#chocolate-cake">Recipe #3: Chocolate Cake</a></li>
+    </ol>
+
+    <div class="recipe" id="pasta-alfredo">
+        <h2>Pasta Alfredo</h2>
+        <ul>
+            <li>Time: 20-25 min</li>
+            <li>Serves: 4 people</li>
+        </ul>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredient</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Fettuccine pasta</td>
+                    <td>12 oz (340 g)</td>
+                </tr>
+                <tr>
+                    <td>Heavy cream</td>
+                    <td>1 cup (240 ml)</td>
+                </tr>
+                <tr>
+                    <td>Unsalted butter</td>
+                    <td>1/2 cup (115 g)</td>
+                </tr>
+                <tr>
+                    <td>Grated Parmesan cheese</td>
+                    <td>1 cup (100 g)</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="step"><strong>Step 1:</strong> Cook the pasta according to package instructions.</div>
+        <div class="step"><strong>Step 2:</strong> In a saucepan, melt butter over medium heat. Add heavy cream and simmer for 5 minutes.</div>
+        <div class="step"><strong>Step 3:</strong> Stir in Parmesan cheese until melted. Combine with pasta and serve.</div>
+        <p><em>Source: <a href="#">Some recipe website</a></em></p>
+    </div>
+
+    <div class="recipe" id="chicken-curry">
+        <h2>Chicken Curry</h2>
+        <ul>
+            <li>Time: 30-35 min</li>
+            <li>Serves: 4 people</li>
+        </ul>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredient</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Chicken breast</td>
+                    <td>1 lb (450 g), diced</td>
+                </tr>
+                <tr>
+                    <td>Coconut milk</td>
+                    <td>1 can (400 ml)</td>
+                </tr>
+                <tr>
+                    <td>Curry powder</td>
+                    <td>2 tbsp</td>
+                </tr>
+                <tr>
+                    <td>Onion</td>
+                    <td>1 medium, chopped</td>
+                </tr>
+                <tr>
+                    <td>Garlic</td>
+                    <td>3 cloves, minced</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="step"><strong>Step 1:</strong> In a pot, sauté onion and garlic until fragrant.</div>
+        <div class="step"><strong>Step 2:</strong> Add diced chicken and cook until no longer pink.</div>
+        <div class="step"><strong>Step 3:</strong> Stir in curry powder and coconut milk. Simmer for 15 minutes.</div>
+        <p><em>Source: <a href="#">Another recipe website</a></em></p>
+    </div>
+
+    <div class="recipe" id="chocolate-cake">
+        <h2>Chocolate Cake</h2>
+        <ul>
+            <li>Time: 50-60 min</li>
+            <li>Serves: 8 people</li>
+        </ul>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredient</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>All-purpose flour</td>
+                    <td>1 3/4 cups (220 g)</td>
+                </tr>
+                <tr>
+                    <td>Cocoa powder</td>
+                    <td>3/4 cup (65 g)</td>
+                </tr>
+                <tr>
+                    <td>Sugar</td>
+                    <td>2 cups (400 g)</td>
+                </tr>
+                <tr>
+                    <td>Baking powder</td>
+                    <td>1 1/2 tsp</td>
+                </tr>
+                <tr>
+                    <td>Eggs</td>
+                    <td>2 large</td>
+                </tr>
+                <tr>
+                    <td>Milk</td>
+                    <td>1 cup (240 ml)</td>
+                </tr>
+                <tr>
+                    <td>Vegetable oil</td>
+                    <td>1/2 cup (120 ml)</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="step"><strong>Step 1:</strong> Preheat the oven to 350°F (175°C).</div>
+        <div class="step"><strong>Step 2:</strong> In a bowl, mix dry ingredients. In another bowl, combine wet ingredients.</div>
+        <div class="step"><strong>Step 3:</strong> Combine both mixtures and pour into a greased cake pan. Bake for 30-35 minutes.</div>
+        <p><em>Source: <a href="#">Yet another recipe website</a></em></p>
+    </div>
+</body>
+</html>
